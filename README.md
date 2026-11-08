@@ -13,31 +13,33 @@ A collection of VHDL practical programs for Semester 3 Computer Architecture / D
 | 3 | NOT Gate | [NOT_Gate.vhd](Logic_Gates/NOT_Gate.vhd) |
 | 4 | NAND Gate | [NAND_Gate.vhd](Logic_Gates/NAND_Gate.vhd) |
 | 5 | NOR Gate | [NOR_Gate.vhd](Logic_Gates/NOR_Gate.vhd) |
+| 6 | XOR Gate | [XOR_Gate.vhd](Logic_Gates/XOR_Gate.vhd) |
+| 7 | XNOR Gate | [XNOR_Gate.vhd](Logic_Gates/XNOR_Gate.vhd) |
 
 ### Arithmetic Circuits
 
 | No. | Topic | VHDL Source |
 |---:|---|---|
-| 6 | Half Adder | [Half_Adder.vhd](Arithmetic_Circuits/Half_Adder.vhd) |
-| 7 | Full Adder | [Full_Adder.vhd](Arithmetic_Circuits/Full_Adder.vhd) |
-| 8 | Half Subtractor | [Half_Subtractor.vhd](Arithmetic_Circuits/Half_Subtractor.vhd) |
-| 9 | Full Subtractor | [Full_Subtractor.vhd](Arithmetic_Circuits/Full_Subtractor.vhd) |
+| 8 | Half Adder | [Half_Adder.vhd](Arithmetic_Circuits/Half_Adder.vhd) |
+| 9 | Full Adder | [Full_Adder.vhd](Arithmetic_Circuits/Full_Adder.vhd) |
+| 10 | Half Subtractor | [Half_Subtractor.vhd](Arithmetic_Circuits/Half_Subtractor.vhd) |
+| 11 | Full Subtractor | [Full_Subtractor.vhd](Arithmetic_Circuits/Full_Subtractor.vhd) |
 
 ### Combinational Circuits
 
 | No. | Topic | VHDL Source |
 |---:|---|---|
-| 10 | 2:4 Decoder | [Decoder_2to4.vhd](Combinational_Circuits/Decoder_2to4.vhd) |
-| 11 | 4:2 Encoder | [Encoder_4to2.vhd](Combinational_Circuits/Encoder_4to2.vhd) |
-| 12 | 4:1 Multiplexer | [MUX_4to1.vhd](Combinational_Circuits/MUX_4to1.vhd) |
-| 13 | 8:1 Multiplexer | [MUX_8to1.vhd](Combinational_Circuits/MUX_8to1.vhd) |
-| 14 | 1:8 Demultiplexer | [DEMUX_1to8.vhd](Combinational_Circuits/DEMUX_1to8.vhd) |
+| 12 | 2:4 Decoder | [Decoder_2to4.vhd](Combinational_Circuits/Decoder_2to4.vhd) |
+| 13 | 4:2 Encoder | [Encoder_4to2.vhd](Combinational_Circuits/Encoder_4to2.vhd) |
+| 14 | 4:1 Multiplexer | [MUX_4to1.vhd](Combinational_Circuits/MUX_4to1.vhd) |
+| 15 | 8:1 Multiplexer | [MUX_8to1.vhd](Combinational_Circuits/MUX_8to1.vhd) |
+| 16 | 1:8 Demultiplexer | [DEMUX_1to8.vhd](Combinational_Circuits/DEMUX_1to8.vhd) |
 
 ### Sequential Circuits
 
 | No. | Topic | VHDL Source |
 |---:|---|---|
-| 15 | 4-bit Register / Circular Shift Register | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) |
+| 17 | 4-bit Register / Circular Shift Register | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) |
 
 ## Notes
 
