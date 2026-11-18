@@ -24,8 +24,10 @@ This section contains short theory, the corresponding truth/operation/state tabl
 | 18 | 8:3 Encoder | [Encoder_8to3.md](Encoder_8to3.md) |
 | 19 | 4-bit Register with Rotated Input Mapping | [Register_4bit.md](Register_4bit.md) |
 | 20 | 4-bit Parallel Register | [Register_4bit_Parallel.md](Register_4bit_Parallel.md) |
-| 21 | 4-bit ALU — 8 operations | [shift_09.md](shift_09.md) |
-| 22 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.md](ALU_4bit_4operations.md) |
+| 21 | 4-bit Left Shift Register | [Left_Shift_Register.md](Left_Shift_Register.md) |
+| 22 | 4-bit Right Shift Register | [Right_Shift_Register.md](Right_Shift_Register.md) |
+| 23 | 4-bit ALU — 8 operations | [shift_09.md](shift_09.md) |
+| 24 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.md](ALU_4bit_4operations.md) |
 
 ## Required format for future experiments
 
