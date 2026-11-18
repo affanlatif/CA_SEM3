@@ -23,8 +23,8 @@ This section contains short theory, the corresponding truth/operation/state tabl
 | 17 | 1:8 Demultiplexer | [DEMUX_1to8.md](DEMUX_1to8.md) |
 | 18 | 8:1 Multiplexer with Enable | [MUX_8to1_Enable.md](MUX_8to1_Enable.md) |
 | 19 | 1:8 Demultiplexer with Enable | [DEMUX_1to8_Enable.md](DEMUX_1to8_Enable.md) |
-| 18 | 3:8 Decoder | [Decoder_3to8.md](Decoder_3to8.md) |
-| 19 | 8:3 Encoder | [Encoder_8to3.md](Encoder_8to3.md) |
+| 20 | 3:8 Decoder | [Decoder_3to8.md](Decoder_3to8.md) |
+| 21 | 8:3 Encoder | [Encoder_8to3.md](Encoder_8to3.md) |
 | 22 | 4-bit Register with Rotated Input Mapping | [Register_4bit.md](Register_4bit.md) |
 | 23 | 4-bit Parallel Register | [Register_4bit_Parallel.md](Register_4bit_Parallel.md) |
 | 24 | 4-bit Circular Left Shift Register | [Left_Shift_Register.md](Left_Shift_Register.md) |
