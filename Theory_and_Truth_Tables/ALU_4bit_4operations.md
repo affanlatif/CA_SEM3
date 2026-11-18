@@ -15,6 +15,24 @@ This ALU accepts two 4-bit operands, A and B, and produces a 4-bit output Y. It 
 | 1 | 0 | D2 | A AND B |
 | 1 | 1 | D3 | A OR B |
 
+## Text Simulation (Expected)
+
+Example test: keep A = 0101 and B = 0011, then change S1S0 through all four selections.
+
+```text
+Time : t0--------t1--------t2--------t3
+S1S0 : 00--------01--------10--------11
+A    : 0101------0101------0101------0101
+B    : 0011------0011------0011------0011
+D0   : 1000------1000------1000------1000   (A + B)
+D1   : 0010------0010------0010------0010   (A - B)
+D2   : 0001------0001------0001------0001   (A AND B)
+D3   : 0111------0111------0111------0111   (A OR B)
+Y    : 1000------0010------0001------0111
+```
+
+The selected output Y follows D0, D1, D2 or D3 according to S1S0. These are expected ideal logic values; propagation delays are not represented.
+
 ## VHDL Source
 [Open ALU_4bit_4operations.vhd](../ALU/ALU_4bit_4operations.vhd)
 
