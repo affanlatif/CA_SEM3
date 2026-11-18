@@ -19,6 +19,20 @@ The ALU operates on two 4-bit operands, A and B, and uses a 3-bit select input S
 | 1 | 1 | 0 | A + 1 (increment) |
 | 1 | 1 | 1 | A − 1 (decrement) |
 
+## Text Simulation (Expected)
+
+Example test: keep A = 0101 and B = 0011, then apply SEL from 000 to 111.
+
+```text
+Time : t0----t1----t2----t3----t4----t5----t6----t7
+SEL  : 000---001---010---011---100---101---110---111
+A    : 0101--0101--0101--0101--0101--0101--0101--0101
+B    : 0011--0011--0011--0011--0011--0011--0011--0011
+Y    : 1000--0010--0001--0111--0110--1010--0110--0100
+```
+
+The expected outputs are A+B, A-B, A AND B, A OR B, A XOR B, NOT A, A+1 and A-1. Results are shown as 4-bit values; carry or borrow beyond four bits is not shown. These are expected ideal logic values, not a simulator capture.
+
 ## VHDL Source
 [Open shift_09.vhd](../ALU/shift_09.vhd)
 
