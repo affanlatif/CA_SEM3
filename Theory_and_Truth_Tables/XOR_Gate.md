@@ -15,5 +15,18 @@ An XOR (exclusive-OR) gate produces HIGH when its two inputs are different. It p
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
+## Text Simulation (Expected)
+
+Apply the input combinations in order.
+
+```text
+Time : t0----t1----t2----t3
+A    : 0-----0-----1-----1
+B    : 0-----1-----0-----1
+Y    : 0-----1-----1-----0
+```
+
+XOR is HIGH when the two inputs are different.
+
 ## VHDL Source
 [Open XOR_Gate.vhd](../Logic_Gates/XOR_Gate.vhd)
