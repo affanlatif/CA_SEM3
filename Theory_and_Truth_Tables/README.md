@@ -15,7 +15,7 @@ This section contains short theory, the corresponding truth/operation/state tabl
 | 9 | Full Adder | [Full_Adder.md](Full_Adder.md) |
 | 10 | Half Subtractor | [Half_Subtractor.md](Half_Subtractor.md) |
 | 11 | Full Subtractor | [Full_Subtractor.md](Full_Subtractor.md) |
-| 12 | Combined Half Adder / Half Subtractor | [HALF_ADDER_SUBTRACTOR.md](HALF_ADDER_SUBTRACTOR.md) |
+| 12 | Combined Half Adder / Half Subtractor | [Half_Adder_Subtractor.md](Half_Adder_Subtractor.md) |
 | 12 | 2:4 Decoder | [Decoder_2to4.md](Decoder_2to4.md) |
 | 13 | 4:2 Encoder | [Encoder_4to2.md](Encoder_4to2.md) |
 | 14 | 4:1 Multiplexer | [MUX_4to1.md](MUX_4to1.md) |
