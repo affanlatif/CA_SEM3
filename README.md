@@ -44,6 +44,7 @@ A collection of VHDL practical programs for Semester 3 Computer Architecture / D
 
 ### Arithmetic Logic Unit (ALU)
 
+| 20 | 4-bit ALU (4 operations: ADD, SUB, AND, OR) | [ALU_4bit_4operations.vhd](ALU/ALU_4bit_4operations.vhd) |
 | No. | Topic | VHDL Source |
 |---:|---|---|
 | 19 | 4-bit ALU (8 selectable operations) | [shift_09.vhd](ALU/shift_09.vhd) |
