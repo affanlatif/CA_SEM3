@@ -42,13 +42,19 @@ A collection of VHDL practical programs for Semester 3 Computer Architecture / D
 | 17 | 4-bit Register / Circular Shift Register | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) |
 | 18 | 4-bit D Flip-Flop / Parallel Register | [Register_4bit_Parallel.vhd](Sequential_Circuits/Register_4bit_Parallel.vhd) |
 
+### Arithmetic Logic Unit (ALU)
+
+| No. | Topic | VHDL Source |
+|---:|---|---|
+| 19 | 4-bit ALU (8 selectable operations) | [shift_09.vhd](ALU/shift_09.vhd) |
+
 ## Notes
 
 - Each program is a separate VHDL design unit. Compile the required `.vhd` file in your simulator (for example, Xilinx ISE or Vivado).
 - The 4:2 encoder is a simple encoder and assumes that exactly one of its four inputs is HIGH at a time.
 - The 4-bit circular shift register follows the bit movement shown in the practical notebook and uses an active-HIGH asynchronous clear.
 - The 4-bit parallel register loads the complete input vector D into Q on each rising clock edge and uses an active-HIGH asynchronous clear.
-- These examples use `IEEE.STD_LOGIC_1164.ALL`; arithmetic and unsigned packages are not required for these circuits.
+- The basic logic and combinational examples use `IEEE.STD_LOGIC_1164.ALL`. The ALU source retains the library declarations shown in the Xilinx ISE reference image.
 
 ## Repository Structure
 
