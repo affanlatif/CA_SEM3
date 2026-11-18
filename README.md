@@ -39,8 +39,8 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 | 17 | 1:8 Demultiplexer | [DEMUX_1to8.vhd](Combinational_Circuits/DEMUX_1to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/DEMUX_1to8.md) |
 | 18 | 8:1 Multiplexer with Enable | [MUX_8to1_Enable.vhd](Combinational_Circuits/MUX_8to1_Enable.vhd) | [Theory + Table](Theory_and_Truth_Tables/MUX_8to1_Enable.md) |
 | 19 | 1:8 Demultiplexer with Enable | [DEMUX_1to8_Enable.vhd](Combinational_Circuits/DEMUX_1to8_Enable.vhd) | [Theory + Table](Theory_and_Truth_Tables/DEMUX_1to8_Enable.md) |
-| 18 | 3:8 Decoder | [Decoder_3to8.vhd](Combinational_Circuits/Decoder_3to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/Decoder_3to8.md) |
-| 19 | 8:3 Encoder | [Encoder_8to3.vhd](Combinational_Circuits/Encoder_8to3.vhd) | [Theory + Table](Theory_and_Truth_Tables/Encoder_8to3.md) |
+| 20 | 3:8 Decoder | [Decoder_3to8.vhd](Combinational_Circuits/Decoder_3to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/Decoder_3to8.md) |
+| 21 | 8:3 Encoder | [Encoder_8to3.vhd](Combinational_Circuits/Encoder_8to3.vhd) | [Theory + Table](Theory_and_Truth_Tables/Encoder_8to3.md) |
 
 ### Sequential Circuits
 
