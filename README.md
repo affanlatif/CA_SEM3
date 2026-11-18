@@ -37,6 +37,8 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 | 15 | 4:1 Multiplexer | [MUX_4to1.vhd](Combinational_Circuits/MUX_4to1.vhd) | [Theory + Table](Theory_and_Truth_Tables/MUX_4to1.md) |
 | 16 | 8:1 Multiplexer | [MUX_8to1.vhd](Combinational_Circuits/MUX_8to1.vhd) | [Theory + Table](Theory_and_Truth_Tables/MUX_8to1.md) |
 | 17 | 1:8 Demultiplexer | [DEMUX_1to8.vhd](Combinational_Circuits/DEMUX_1to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/DEMUX_1to8.md) |
+| 18 | 8:1 Multiplexer with Enable | [MUX_8to1_Enable.vhd](Combinational_Circuits/MUX_8to1_Enable.vhd) | [Theory + Table](Theory_and_Truth_Tables/MUX_8to1_Enable.md) |
+| 19 | 1:8 Demultiplexer with Enable | [DEMUX_1to8_Enable.vhd](Combinational_Circuits/DEMUX_1to8_Enable.vhd) | [Theory + Table](Theory_and_Truth_Tables/DEMUX_1to8_Enable.md) |
 | 18 | 3:8 Decoder | [Decoder_3to8.vhd](Combinational_Circuits/Decoder_3to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/Decoder_3to8.md) |
 | 19 | 8:3 Encoder | [Encoder_8to3.vhd](Combinational_Circuits/Encoder_8to3.vhd) | [Theory + Table](Theory_and_Truth_Tables/Encoder_8to3.md) |
 
@@ -44,21 +46,21 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 
 | No. | Experiment | VHDL Source | Short Theory & State Table |
 |---:|---|---|---|
-| 20 | 4-bit Register with Rotated Input Mapping | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit.md) |
-| 21 | 4-bit Parallel Register | [Register_4bit_Parallel.vhd](Sequential_Circuits/Register_4bit_Parallel.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit_Parallel.md) |
-| 22 | 4-bit Circular Left Shift Register | [Left_Shift_Register.vhd](Sequential_Circuits/Left_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Left_Shift_Register.md) |
-| 23 | 4-bit Circular Right Shift Register | [Right_Shift_Register.vhd](Sequential_Circuits/Right_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Right_Shift_Register.md) |
+| 22 | 4-bit Register with Rotated Input Mapping | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit.md) |
+| 23 | 4-bit Parallel Register | [Register_4bit_Parallel.vhd](Sequential_Circuits/Register_4bit_Parallel.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit_Parallel.md) |
+| 24 | 4-bit Circular Left Shift Register | [Left_Shift_Register.vhd](Sequential_Circuits/Left_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Left_Shift_Register.md) |
+| 25 | 4-bit Circular Right Shift Register | [Right_Shift_Register.vhd](Sequential_Circuits/Right_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Right_Shift_Register.md) |
 
 ### Arithmetic Logic Units (ALUs)
 
 | No. | Experiment | VHDL Source | Short Theory & Operation Table |
 |---:|---|---|---|
-| 24 | 4-bit ALU — 8 selectable operations | [shift_09.vhd](ALU/shift_09.vhd) | [Theory + Table](Theory_and_Truth_Tables/shift_09.md) |
-| 25 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.vhd](ALU/ALU_4bit_4operations.vhd) | [Theory + Table](Theory_and_Truth_Tables/ALU_4bit_4operations.md) |
+| 26 | 4-bit ALU — 8 selectable operations | [shift_09.vhd](ALU/shift_09.vhd) | [Theory + Table](Theory_and_Truth_Tables/shift_09.md) |
+| 27 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.vhd](ALU/ALU_4bit_4operations.vhd) | [Theory + Table](Theory_and_Truth_Tables/ALU_4bit_4operations.md) |
 
 ## Theory and Truth Tables
 
-All 25 experiments have a separate short-theory, truth/operation/state-table, and expected text-simulation document.
+All 27 experiments have a separate short-theory, truth/operation/state-table, and expected text-simulation document.
 
 **[Open the complete Theory and Truth Tables index](Theory_and_Truth_Tables/README.md)**
 
