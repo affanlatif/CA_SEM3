@@ -14,5 +14,19 @@ A 4-bit parallel register stores all four input bits simultaneously on the risin
 | 0 | Rising edge | D(3) D(2) D(1) D(0) |
 | 0 | No rising edge | Holds previous Q |
 
+## Text Simulation (Expected)
+
+CLEAR is active-HIGH and asynchronous. With CLEAR LOW, the register loads all four input bits together on each rising clock edge.
+
+```text
+Time  : t0-----t1-----t2-----t3-----t4-----t5
+CLK   : 0------0------^1-----0------^1-----0
+CLEAR : 1------0------0------0------0------1
+D     : 0000---1011---1011---0100---0100---0100
+Q     : 0000---0000---1011---1011---0100---0000
+```
+
+The output holds between rising edges. When CLEAR becomes HIGH at t5, Q immediately becomes 0000 without waiting for another clock edge.
+
 ## VHDL Source
 [Open Register_4bit_Parallel.vhd](../Sequential_Circuits/Register_4bit_Parallel.vhd)
