@@ -10,7 +10,8 @@ Required deliverables:
 2. **Short theory** explaining the experiment's aim, purpose, inputs, outputs and working principle.
 3. **Truth table / operation table / state table** that matches the actual code.
 4. **Root README entry** linking to both the VHDL source and the theory/table document.
-5. **Theory index entry** in [Theory_and_Truth_Tables/README.md](Theory_and_Truth_Tables/README.md).
+5. **Expected text simulation trace** showing representative input changes and corresponding outputs. Use `----` for stable intervals and `^` for rising clock edges where applicable.
+6. **Theory index entry** in [Theory_and_Truth_Tables/README.md](Theory_and_Truth_Tables/README.md).
 
 ## Review checklist
 
@@ -20,5 +21,6 @@ Required deliverables:
 - Document clock edge, reset polarity and hold behavior for sequential circuits.
 - Document arithmetic result width and any discarded carry/borrow.
 - Prefer IEEE.NUMERIC_STD for new arithmetic designs; avoid mixing it with legacy arithmetic packages.
-- Keep the truth table consistent with the VHDL implementation.
-- Do not claim code was simulated or compiled unless it was actually tested.
+- Keep the truth table and expected text trace consistent with the actual VHDL implementation.
+- For sequential circuits, show reset/clear behavior, rising-edge capture and output hold intervals as appropriate.
+- Mark hand-calculated traces as expected text simulations. Do not claim code was simulated or compiled unless it was actually tested.
