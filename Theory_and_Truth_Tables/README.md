@@ -1,6 +1,6 @@
 # Theory and Truth Tables
 
-This section contains the short theory and the corresponding truth, operation-selection, or state table for every VHDL experiment. Each document also links to its VHDL source.
+This section contains short theory, the corresponding truth/operation/state table, and an expected text simulation trace for every VHDL experiment. Each document also links to its VHDL source.
 
 | No. | Experiment | Documentation |
 |---:|---|---|
@@ -33,4 +33,5 @@ Every experiment must have:
 - A VHDL source file.
 - Short theory.
 - A truth table, operation-selection table, or state table appropriate to the circuit.
+- An expected text simulation trace (`----` for stable intervals; `^` for rising clock edges where applicable).
 - A link to the VHDL source and documentation in the root README.
