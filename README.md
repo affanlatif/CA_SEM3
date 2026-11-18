@@ -36,6 +36,8 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 | 14 | 4:1 Multiplexer | [MUX_4to1.vhd](Combinational_Circuits/MUX_4to1.vhd) | [Theory + Table](Theory_and_Truth_Tables/MUX_4to1.md) |
 | 15 | 8:1 Multiplexer | [MUX_8to1.vhd](Combinational_Circuits/MUX_8to1.vhd) | [Theory + Table](Theory_and_Truth_Tables/MUX_8to1.md) |
 | 16 | 1:8 Demultiplexer | [DEMUX_1to8.vhd](Combinational_Circuits/DEMUX_1to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/DEMUX_1to8.md) |
+| 17 | 3:8 Decoder | [Decoder_3to8.vhd](Combinational_Circuits/Decoder_3to8.vhd) | [Theory + Table](Theory_and_Truth_Tables/Decoder_3to8.md) |
+| 18 | 8:3 Encoder | [Encoder_8to3.vhd](Combinational_Circuits/Encoder_8to3.vhd) | [Theory + Table](Theory_and_Truth_Tables/Encoder_8to3.md) |
 
 ### Sequential Circuits
 
@@ -53,7 +55,7 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 
 ## Theory and Truth Tables
 
-All 20 experiments have a separate short-theory and truth/operation/state-table document.
+All 22 experiments have a separate short-theory and truth/operation/state-table document.
 
 **[Open the complete Theory and Truth Tables index](Theory_and_Truth_Tables/README.md)**
 
