@@ -15,5 +15,17 @@ A 4-to-2 encoder converts one active-HIGH input among four input lines into a 2-
 | 0 | 1 | 0 | 0 | 1 | 0 |
 | 1 | 0 | 0 | 0 | 1 | 1 |
 
+## Text Simulation (Expected)
+
+Activate one input at a time. Input bus is written D3D2D1D0 order; output is A1A0.
+
+```text
+Time     : t0--------t1--------t2--------t3
+D3D2D1D0 : 0001------0010------0100------1000
+A1A0     : 00--------01--------10--------11
+```
+
+This demonstrates the one-hot input assumption: D0 encodes to 00, D1 to 01, D2 to 10 and D3 to 11.
+
 ## VHDL Source
 [Open Encoder_4to2.vhd](../Combinational_Circuits/Encoder_4to2.vhd)
