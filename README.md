@@ -45,8 +45,8 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 |---:|---|---|---|
 | 19 | 4-bit Register with Rotated Input Mapping | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit.md) |
 | 20 | 4-bit Parallel Register | [Register_4bit_Parallel.vhd](Sequential_Circuits/Register_4bit_Parallel.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit_Parallel.md) |
-| 21 | 4-bit Left Shift Register | [Left_Shift_Register.vhd](Sequential_Circuits/Left_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Left_Shift_Register.md) |
-| 22 | 4-bit Right Shift Register | [Right_Shift_Register.vhd](Sequential_Circuits/Right_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Right_Shift_Register.md) |
+| 21 | 4-bit Circular Left Shift Register | [Left_Shift_Register.vhd](Sequential_Circuits/Left_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Left_Shift_Register.md) |
+| 22 | 4-bit Circular Right Shift Register | [Right_Shift_Register.vhd](Sequential_Circuits/Right_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Right_Shift_Register.md) |
 
 ### Arithmetic Logic Units (ALUs)
 
