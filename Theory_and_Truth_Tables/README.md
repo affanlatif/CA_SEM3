@@ -20,6 +20,8 @@ This section contains the short theory and the corresponding truth, operation-se
 | 14 | 4:1 Multiplexer | [MUX_4to1.md](MUX_4to1.md) |
 | 15 | 8:1 Multiplexer | [MUX_8to1.md](MUX_8to1.md) |
 | 16 | 1:8 Demultiplexer | [DEMUX_1to8.md](DEMUX_1to8.md) |
+| 21 | 3:8 Decoder | [Decoder_3to8.md](Decoder_3to8.md) |
+| 22 | 8:3 Encoder | [Encoder_8to3.md](Encoder_8to3.md) |
 | 17 | 4-bit Register with Rotated Input Mapping | [Register_4bit.md](Register_4bit.md) |
 | 18 | 4-bit Parallel Register | [Register_4bit_Parallel.md](Register_4bit_Parallel.md) |
 | 19 | 4-bit ALU — 8 operations | [shift_09.md](shift_09.md) |
