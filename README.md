@@ -45,17 +45,19 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 |---:|---|---|---|
 | 19 | 4-bit Register with Rotated Input Mapping | [Register_4bit.vhd](Sequential_Circuits/Register_4bit.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit.md) |
 | 20 | 4-bit Parallel Register | [Register_4bit_Parallel.vhd](Sequential_Circuits/Register_4bit_Parallel.vhd) | [Theory + Table](Theory_and_Truth_Tables/Register_4bit_Parallel.md) |
+| 21 | 4-bit Left Shift Register | [Left_Shift_Register.vhd](Sequential_Circuits/Left_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Left_Shift_Register.md) |
+| 22 | 4-bit Right Shift Register | [Right_Shift_Register.vhd](Sequential_Circuits/Right_Shift_Register.vhd) | [Theory + Table](Theory_and_Truth_Tables/Right_Shift_Register.md) |
 
 ### Arithmetic Logic Units (ALUs)
 
 | No. | Experiment | VHDL Source | Short Theory & Operation Table |
 |---:|---|---|---|
-| 21 | 4-bit ALU — 8 selectable operations | [shift_09.vhd](ALU/shift_09.vhd) | [Theory + Table](Theory_and_Truth_Tables/shift_09.md) |
-| 22 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.vhd](ALU/ALU_4bit_4operations.vhd) | [Theory + Table](Theory_and_Truth_Tables/ALU_4bit_4operations.md) |
+| 23 | 4-bit ALU — 8 selectable operations | [shift_09.vhd](ALU/shift_09.vhd) | [Theory + Table](Theory_and_Truth_Tables/shift_09.md) |
+| 24 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.vhd](ALU/ALU_4bit_4operations.vhd) | [Theory + Table](Theory_and_Truth_Tables/ALU_4bit_4operations.md) |
 
 ## Theory and Truth Tables
 
-All 22 experiments have a separate short-theory, truth/operation/state-table, and expected text-simulation document.
+All 24 experiments have a separate short-theory, truth/operation/state-table, and expected text-simulation document.
 
 **[Open the complete Theory and Truth Tables index](Theory_and_Truth_Tables/README.md)**
 
