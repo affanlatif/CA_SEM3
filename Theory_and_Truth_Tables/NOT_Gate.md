@@ -13,5 +13,17 @@ A NOT gate is an inverter. It produces the complement of its single input: HIGH 
 | 0 | 1 |
 | 1 | 0 |
 
+## Text Simulation (Expected)
+
+Toggle the single input A.
+
+```text
+Time : t0----t1
+A    : 0-----1
+Y    : 1-----0
+```
+
+Y always shows the complement of A.
+
 ## VHDL Source
 [Open NOT_Gate.vhd](../Logic_Gates/NOT_Gate.vhd)
