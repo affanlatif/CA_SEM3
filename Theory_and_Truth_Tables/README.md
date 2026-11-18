@@ -16,19 +16,19 @@ This section contains short theory, the corresponding truth/operation/state tabl
 | 10 | Half Subtractor | [Half_Subtractor.md](Half_Subtractor.md) |
 | 11 | Full Subtractor | [Full_Subtractor.md](Full_Subtractor.md) |
 | 12 | Combined Half Adder / Half Subtractor | [Half_Adder_Subtractor.md](Half_Adder_Subtractor.md) |
-| 12 | 2:4 Decoder | [Decoder_2to4.md](Decoder_2to4.md) |
-| 13 | 4:2 Encoder | [Encoder_4to2.md](Encoder_4to2.md) |
-| 14 | 4:1 Multiplexer | [MUX_4to1.md](MUX_4to1.md) |
-| 15 | 8:1 Multiplexer | [MUX_8to1.md](MUX_8to1.md) |
-| 16 | 1:8 Demultiplexer | [DEMUX_1to8.md](DEMUX_1to8.md) |
-| 17 | 3:8 Decoder | [Decoder_3to8.md](Decoder_3to8.md) |
-| 18 | 8:3 Encoder | [Encoder_8to3.md](Encoder_8to3.md) |
-| 19 | 4-bit Register with Rotated Input Mapping | [Register_4bit.md](Register_4bit.md) |
-| 20 | 4-bit Parallel Register | [Register_4bit_Parallel.md](Register_4bit_Parallel.md) |
-| 21 | 4-bit Circular Left Shift Register | [Left_Shift_Register.md](Left_Shift_Register.md) |
-| 22 | 4-bit Circular Right Shift Register | [Right_Shift_Register.md](Right_Shift_Register.md) |
-| 23 | 4-bit ALU — 8 operations | [shift_09.md](shift_09.md) |
-| 24 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.md](ALU_4bit_4operations.md) |
+| 13 | 2:4 Decoder | [Decoder_2to4.md](Decoder_2to4.md) |
+| 14 | 4:2 Encoder | [Encoder_4to2.md](Encoder_4to2.md) |
+| 15 | 4:1 Multiplexer | [MUX_4to1.md](MUX_4to1.md) |
+| 16 | 8:1 Multiplexer | [MUX_8to1.md](MUX_8to1.md) |
+| 17 | 1:8 Demultiplexer | [DEMUX_1to8.md](DEMUX_1to8.md) |
+| 18 | 3:8 Decoder | [Decoder_3to8.md](Decoder_3to8.md) |
+| 19 | 8:3 Encoder | [Encoder_8to3.md](Encoder_8to3.md) |
+| 20 | 4-bit Register with Rotated Input Mapping | [Register_4bit.md](Register_4bit.md) |
+| 21 | 4-bit Parallel Register | [Register_4bit_Parallel.md](Register_4bit_Parallel.md) |
+| 22 | 4-bit Circular Left Shift Register | [Left_Shift_Register.md](Left_Shift_Register.md) |
+| 23 | 4-bit Circular Right Shift Register | [Right_Shift_Register.md](Right_Shift_Register.md) |
+| 24 | 4-bit ALU — 8 operations | [shift_09.md](shift_09.md) |
+| 25 | 4-bit ALU — 4 operations | [ALU_4bit_4operations.md](ALU_4bit_4operations.md) |
 
 ## Required format for future experiments
 
