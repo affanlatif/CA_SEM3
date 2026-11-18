@@ -26,7 +26,7 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 | 9 | Full Adder | [Full_Adder.vhd](Arithmetic_Circuits/Full_Adder.vhd) | [Theory + Table](Theory_and_Truth_Tables/Full_Adder.md) |
 | 10 | Half Subtractor | [Half_Subtractor.vhd](Arithmetic_Circuits/Half_Subtractor.vhd) | [Theory + Table](Theory_and_Truth_Tables/Half_Subtractor.md) |
 | 11 | Full Subtractor | [Full_Subtractor.vhd](Arithmetic_Circuits/Full_Subtractor.vhd) | [Theory + Table](Theory_and_Truth_Tables/Full_Subtractor.md) |
-| 12 | Combined Half Adder / Half Subtractor | [HALF_ADDER_SUBTRACTOR.vhd](Arithmetic_Circuits/HALF_ADDER_SUBTRACTOR.vhd) | [Theory + Table](Theory_and_Truth_Tables/HALF_ADDER_SUBTRACTOR.md) |
+| 12 | Combined Half Adder / Half Subtractor | [Half_Adder_Subtractor.vhd](Arithmetic_Circuits/Half_Adder_Subtractor.vhd) | [Theory + Table](Theory_and_Truth_Tables/Half_Adder_Subtractor.md) |
 
 ### Combinational Circuits
 
