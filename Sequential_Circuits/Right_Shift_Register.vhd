@@ -3,10 +3,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity right_shift_register is
     Port (
-        CLK        : in STD_LOGIC;
-        CLEAR      : in STD_LOGIC;
-        SERIAL_IN  : in STD_LOGIC;
-        Q          : out STD_LOGIC_VECTOR(3 downto 0)
+        CLK   : in STD_LOGIC;
+        CLEAR : in STD_LOGIC;
+        D     : in STD_LOGIC_VECTOR(3 downto 0);
+        Q     : out STD_LOGIC_VECTOR(3 downto 0)
     );
 end right_shift_register;
 
@@ -18,7 +18,7 @@ begin
         if CLEAR = '1' then
             TEMP <= "0000";
         elsif rising_edge(CLK) then
-            TEMP <= SERIAL_IN & TEMP(3 downto 1);
+            TEMP <= D(0) & D(3 downto 1);
         end if;
     end process;
 
