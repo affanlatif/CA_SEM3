@@ -2,7 +2,7 @@
 
 Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, combinational circuits, sequential circuits and ALU designs.
 
-**Documentation standard:** Every experiment must have its VHDL source, short theory, truth/operation/state table, and links to both source and documentation in this README. See [CONTRIBUTING.md](CONTRIBUTING.md).
+**Documentation standard:** Every experiment must have its VHDL source, short theory, truth/operation/state table, expected text simulation trace, and links to both source and documentation in this README. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Experiments
 
@@ -55,7 +55,7 @@ Semester 3 VHDL practical repository covering logic gates, arithmetic circuits, 
 
 ## Theory and Truth Tables
 
-All 22 experiments have a separate short-theory and truth/operation/state-table document.
+All 22 experiments have a separate short-theory, truth/operation/state-table, and expected text-simulation document.
 
 **[Open the complete Theory and Truth Tables index](Theory_and_Truth_Tables/README.md)**
 
@@ -66,8 +66,9 @@ Whenever a new VHDL experiment is added or an existing experiment is changed, in
 1. **VHDL source code** in the appropriate folder.
 2. **Short theory** explaining the circuit's purpose and working principle.
 3. **Truth table, operation-selection table, or state table**, consistent with the actual VHDL.
-4. **README links** to both the VHDL source and the theory/table document.
-5. **Theory index entry** in [Theory_and_Truth_Tables/README.md](Theory_and_Truth_Tables/README.md).
+4. **Expected text simulation trace** with sample input changes and corresponding output values. Use `----` for stable intervals and `^` to mark rising clock edges where applicable.
+5. **README links** to both the VHDL source and the theory/table document.
+6. **Theory index entry** in [Theory_and_Truth_Tables/README.md](Theory_and_Truth_Tables/README.md).
 
 A source-only addition is incomplete. Follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
